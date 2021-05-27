@@ -4,7 +4,7 @@ const option2 = document.querySelector("#btn2");
 const option3 = document.querySelector("#btn3");
 const option4 = document.querySelector("#btn4");
 const time = document.querySelector("#timer");
-const tryAgain = document.querySelector("#submit-button");
+const saveScore = document.querySelector("#submit-button");
 
 var secondsLeft = 60;
 var timer
@@ -179,4 +179,4 @@ function initialsSave() {
         window.localStorage.setItem("high-scores", JSON.stringify(highScores));
     }
 }
-tryAgain.onclick = initialsSave;
+saveScore.onclick = initialsSave;
