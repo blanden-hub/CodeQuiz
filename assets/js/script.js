@@ -78,7 +78,7 @@ option1.addEventListener("click", function (event) {
     if (option1.textContent === currentQuestion.correctAnswer) {
         alert("correct answer!");
     } else {
-        alert("incorect answer!");
+        alert("Epic Fail! 🤦🏻");
         secondsLeft -= 15;
     }
     index++
@@ -94,7 +94,7 @@ option2.addEventListener("click", function (event) {
     if (option2.textContent === currentQuestion.correctAnswer) {
         alert("correct answer");
     } else {
-        alert("incorect answer!");
+        alert("Epic Fail! 🤦🏻");
         secondsLeft -= 15;
     }
     index++
@@ -110,7 +110,7 @@ option3.addEventListener("click", function (event) {
     if (option3.textContent === currentQuestion.correctAnswer) {
         alert("correct answer");
     } else {
-        alert("incorect answer!");
+        alert("Epic Fail! 🤦🏻");
         secondsLeft -= 15;
     }
     index++
@@ -126,7 +126,7 @@ option4.addEventListener("click", function (event) {
     if (option4.textContent === currentQuestion.correctAnswer) {
         alert("correct answer");
     } else {
-        alert("incorect answer!");
+        alert("Epic Fail! 🤦🏻");
         secondsLeft -= 15;
     }
     index++
