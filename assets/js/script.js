@@ -41,10 +41,10 @@ var questionAnswers = [{
 
     {
         question: "Which HTML tag is used to define an internal style sheet?",
-        answers: ["<style>",
+        answers: ["<html>",
             "<css>",
             "<script>",
-            "<html>",
+            "<style>",
         ],
         correctAnswer: "<style>"
     },
@@ -158,10 +158,8 @@ function quizEnd() {
     clearInterval(timer);
     let finalScore = document.querySelector("#final-score");
     let highScores = document.querySelector("#highscores-div");
-
     highScores.style.display = "block";
     finalScore.textContent = "Your Score: " + secondsLeft;
-
 }
 
 function initialsSave() {
